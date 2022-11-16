@@ -1,3 +1,5 @@
+import dashBoardSection from "../data/dashBoardSection";
+
 const url = "https://betis23-oprec.herokuapp.com";
 
 const main = () => {
@@ -37,8 +39,11 @@ const main = () => {
 
         const accessToken = responseJson.access_token;
         console.log(accessToken);
+
+        dashBoardSection(responseJson, username);
       })
       .catch((error) => {
+        alert("Maaf atas ketidaknyamanannya, tapi keknya ada yg salah");
         console.log(error);
       });
   });
