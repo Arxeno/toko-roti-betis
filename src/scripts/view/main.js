@@ -1,3 +1,4 @@
+import "../components/dash-board";
 import dashBoardSection from "../data/dashBoardSection";
 
 const url = "https://betis23-oprec.herokuapp.com";
