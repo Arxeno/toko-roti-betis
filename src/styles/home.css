@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #bda47d;
+}
+
+#headline {
+  margin: 20px auto 60px;
+  text-align: center;
+}
+
+#form-container {
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: #674023;
+  width: fit-content;
+}
+
+.input-box {
+  margin: 40px 0;
+}
