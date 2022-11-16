@@ -41,7 +41,7 @@ const main = () => {
         const accessToken = responseJson.access_token;
         console.log(accessToken);
 
-        dashBoardSection(responseJson, username);
+        dashBoardSection(accessToken, username);
       })
       .catch((error) => {
         alert("Maaf atas ketidaknyamanannya, tapi keknya ada yg salah");
