@@ -1,0 +1,14 @@
+.card {
+  background-color: #9e5f32;
+  width: 300px;
+  min-height: 420px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
